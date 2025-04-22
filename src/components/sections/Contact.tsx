@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
                   <ul className="space-y-3">
                     <li>
                       <a 
-                        href="https://github.com/Thamu-MDS/" 
+                        href="https://github.com/mdsT-5454/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-text-DEFAULT hover:text-primary transition-colors"
