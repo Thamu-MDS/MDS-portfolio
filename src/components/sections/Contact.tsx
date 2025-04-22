@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import emailjs from 'emailjs-com';
 import { Send, Mail, Github, Linkedin, Twitter } from 'lucide-react';
 import TerminalWindow from '../ui/TerminalWindow';
 import TypewriterEffect from '../ui/TypewriterEffect';
@@ -18,10 +19,19 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send this data to a backend
-    console.log('Form submitted:', formData);
-    alert('Message sent successfully!');
-    setFormData({ name: '', email: '', message: '' });
+
+    emailjs.send(
+      'service_2r83zi5',      
+      'template_tqm9tmc',    
+      formData,
+      'IAgj7Qfs11OycWqgY'       
+    ).then(() => {
+      alert('Message sent successfully!');
+      setFormData({ name: '', email: '', message: '' });
+    }).catch((error) => {
+      console.error('Email send error:', error);
+      alert('Failed to send message. Please try again later.');
+    });
   };
 
   return (

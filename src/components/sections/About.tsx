@@ -42,7 +42,7 @@ const About: React.FC = () => {
                 command="whoami"
                 output={
                   <p className="text-text-DEFAULT">
-                    I'm MDS Thamu, a full-stack developer with 6+ years of experience building modern web applications. I specialize in React, Node.js, and TypeScript, with a focus on creating performant and user-friendly interfaces.
+                    I'm MDS Thamu, a full-stack developer with 2+ years of experience building modern web applications. I specialize in React, Node.js, and TypeScript, with a focus on creating performant and user-friendly interfaces.
                   </p>
                 }
               />
