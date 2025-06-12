@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import TypewriterEffect from '../ui/TypewriterEffect';
 
 const Hero: React.FC = () => {
-  const profileImageUrl = "https://media-hosting.imagekit.io/c322a5af2f364275/thamu1.png?Expires=1839835405&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SiC8wKO-4YjB1WddLfqKw-9-s0reDajVpTtQrTFrIQoCr1Vppfw~71weaT~MMoGTj-q0mYuAmoRJ9cbo704tGImnD9LYhwECa7oTJWo8jB0HWxVNlE543q10muZE~vFvZHSNbn33F-gJ3bPXXZSzKeYMMeX3mZ--h9ZnweV9Gsk0w7ZPFm0Asf8tAzSe3hJ3qeexTtoH1iuC7U1JK~AG8dE67m-5fzTKKq7iBwao3QAWFZhBc22PWSrdBP7tyO86XG0SkKLqYuENsBgoJGOTyTba7yzwuvmUhqYWH~wnlopwNwfLSSHGCAxhKUZ6oNUr9UL7gZyonXGnMtJLsn92KA__";
+  const profileImageUrl = "https://i.imghippo.com/files/WkIE1891mY.png";
 
   return (
     <section className="min-h-screen flex flex-col justify-center px-4 md:px-8 py-20">
